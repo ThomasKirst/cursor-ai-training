@@ -1,21 +1,27 @@
 const fs = require('fs');
 
 function readFile(path) {
-    return fs.readFileSync(path, 'utf8');
+    try {
+        return fs.readFileSync(path, 'utf8');
+    } catch (error) {
+        throw new Error(`Failed to read file at path ${path}: ${error.message}`);
+    }
 }
 
-function appendFile(path, content) {
-    fs.appendFileSync(path, content);
+function appendFile(path, text) {
+    fs.appendFileSync(path, text);
 }
 
-function createFile(path, content) {
-    fs.writeFileSync(path, content);
+function createFile(path, text) {
+    fs.writeFileSync(path, text);
 }
 
 function main() {
-    createFile('./README.md', "");
-    appendFile('./README.md', "# Cursor AI Training\n\n");
-    appendFile('./README.md', "## Tab-based coding\n\n");
+    try {
+        readFile('nonexistent.txt');
+    } catch (error) {
+        console.error('Error:', error.message);
+    }
 }
 
 main();
