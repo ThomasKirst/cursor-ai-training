@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "name": "cursor-ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

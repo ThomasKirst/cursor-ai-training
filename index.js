@@ -18,11 +18,10 @@ function divide(a, b) {
     return a / b;
 }
 
-console.log(add(1, 2));
-
 try {
     console.log(divide(1, 0));
 } catch (error) {
     console.log("Error:", error.message);
 }
 
+module.exports = { add, subtract, multiply, divide };
