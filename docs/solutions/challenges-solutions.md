@@ -11,6 +11,10 @@ const getEvenNumbers = (numbers) =>
   numbers.filter((number) => number % 2 === 0);
 ```
 
+We are using the .filter() method to create a new array with all elements that pass the test implemented by the provided function.
+
+The "%" or modulus operator is used to check if a number is divisible by 2. If the remainder is 0, the number is even.
+
 ## Challenge 2: Writing Tests with Jest
 
 **Solution:**

@@ -41,8 +41,9 @@ function getEvenNumbers(numbers) {
 **Starting Code:**
 
 ```javascript
+// sum.js
 function sum(...numbers) {
-  return numbers.reduce((a, b) => a + b, 0);
+  return numbers.reduce((accumulator, current) => accumulator + current, 0);
 }
 ```
 
@@ -69,9 +70,9 @@ function calculateArea(length, width) {
 }
 ```
 
-**Challenge:** Add comments to the calculateArea function to explain its purpose, parameters, and the value it returns.
+**Challenge:** Add [JS Docs](https://jsdoc.app/) comments to the calculateArea function to explain its purpose, parameters, and the value it returns.
 
-**Cursor AI Tip:** Cursor AI benefits from well-commented code as it provides more context for codebase indexing. Try using @codebase after adding your comments to see if Cursor can locate and understand your function better.
+**Cursor AI Tip:** Cursor AI benefits from well-commented code as it provides more context for codebase indexing. Try using @codebase in the chat after adding your comments to see if Cursor can locate and understand your function better.
 
 **Think About:**
 
@@ -97,17 +98,21 @@ function calculateArea(length, width) {
 
 ## Challenge 5: Let's Get Creative with Composer Mode
 
-**Objective:** Practice using Cursor's composer mode (Cmd+I / Ctrl+I) to generate code with more elaborate instructions.
+**Objective:** Practice using Cursor's composer mode (Cmd+I / Ctrl+I) to generate a simple website with more elaborate instructions.
 
 **Challenge:**
 
-- Come up with a simple JavaScript task that you'd like Cursor to help you with. This could be:
-  - Generating a function to perform a specific calculation.
-  - Creating a loop to iterate over an array and do something with each element.
-  - Writing a conditional statement based on certain criteria.
-- Give Cursor a clear and detailed prompt to generate the code.
+Let's create a simple website that writes a summary about what we learned today.
+
+The website should consist of several files for the HTML, CSS and JavaScript.
+
+The website could have a quiz section to practice today's material.
+
+The website could have a dark mode toggle switch.
+
+You could give it a game like theme or something nostalgic, super modern or something else. Be creative!
 
 **Think About:**
 
-- How can you phrase your prompt to get the most accurate and helpful results from Cursor AI?
+- How can you phrase your prompts as specific as possible to get the most accurate and helpful results from Cursor AI?
 - How does composer mode differ from using the inline edit command (Cmd+K / Ctrl+K)?
