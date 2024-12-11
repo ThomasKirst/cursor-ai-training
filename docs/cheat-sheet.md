@@ -16,11 +16,10 @@
 
 | Command                     | Description                    |
 | --------------------------- | ------------------------------ |
-| `⌘K ⌘S` / `Ctrl+K Ctrl+S`   | Open Keyboard Shortcuts editor |
+| `⌘R ⌘S` / `Ctrl+R Ctrl+S`   | Open Keyboard Shortcuts editor |
 | `⌘Shift+L` / `Ctrl+Shift+L` | Add selected code to Chat      |
-| `⌘Shift+K` / `Ctrl+Shift+K` | Add selected code to Edit      |
+| `⌘Shift+K` / `Ctrl+Shift+K` | Add selected code to Composer  |
 | `⌘Shift+E` / `Ctrl+Shift+E` | AI fix for linter errors       |
-| `⌘Option+L` / `Ctrl+Alt+L`  | View chat history              |
 
 ### Composer Mode (`⌘I` / `Ctrl+I`)
 
@@ -71,8 +70,7 @@
 
 1. Use `@Codebase` for the most accurate codebase searches
 2. Enable "Always search the web" in settings for up-to-date information
-3. Use `Ctrl/⌘ M` to toggle file reading strategies in Cmd K
-4. Utilize `@Git` to generate commit messages from current diffs
-5. Combine multiple @ symbols for powerful context in your queries
+3. Utilize `@Git` to generate commit messages from current diffs
+4. Combine multiple @ symbols for powerful context in your queries
 
 Remember, practice makes perfect! Experiment with these commands to find the workflows that boost your productivity the most. Happy coding with Cursor! 🎉
