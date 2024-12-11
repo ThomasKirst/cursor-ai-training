@@ -54,7 +54,7 @@ function sum(...numbers) {
 **Think About:**
 
 - What are the essential parts of a Jest test suite?
-- What kind of input values should we test the add function with?
+- What kind of input values should we test the `sum` function with?
 
 💡 **Hint:** You can use the `module.exports` syntax to export the `sum` function and import it in your test file with `const { sum } = require('your-file.js');`.
 
